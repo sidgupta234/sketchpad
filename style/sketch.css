@@ -30,13 +30,14 @@ html{
 }
 
 .wrapbuttons{
-	margin:30px;
-	margin-left:443px;
+	width: 400px;
+	height: 400px;
+	margin:20px auto;
 }
 
 .button{
-	padding: 10px;
-	margin: 0px 10px;
+	padding: 8px;
+	margin: 0px 4px;
 	border:2px;
 	border-radius: 3px;
 	box-shadow: 0px 2px 5px 0px;
