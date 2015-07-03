@@ -6,6 +6,10 @@ $(document).ready(function(){
 	$("#reset").click(function(){
 		numboxes =prompt("Enter a value x, between 0 and 80, it would result in x*x squares.");
 		
+		while(!(numboxes>1 && numboxes<80)){
+			numboxes =prompt("Please enter the value in the range, the range is 0 to 80.");
+		}
+		
 		cleargrids();
 		creategrids(numboxes);
 	});
